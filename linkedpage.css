@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #cacaca;
+    background-image: url(img/background.jpg);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5621B9;
+    padding: 10px 0px 10px 50px; /* Top Right Bottom Left */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color:#7B46DE; 
+    position: sticky;
+    top: 0;
+}
+
+select{
+    width: 150 px;
+    border-width: 0px;
+}
+
+button {
+    border-width: 0px;
+}
+
+footer{
+    background-color: #5621B9;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    padding: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.destra {
+    border: 3px solid blue;
+    width: 75%;
+}
+
+.logo {
+    width: 200px;
+}
+
+.login{ /*Pulsante login*/
+    background-color: #7B46DE; 
+    border: none; 
+    color: #FFFFFF; 
+    padding: 15px 32px; 
+    text-align: center;  
+    display: inline-block; 
+    font-size: 16px;
+    margin: 0px 50px 0px 0px; /* Top Right Bottom Left */
+}
+
+.caselle{ /* div per le caselle */
+    margin-left: 50px;
+}
+
+.casella{ /* Caselle nel nav */
+    font-size: 18px;
+    margin-right:20px;    
+    height: 100%;
+    background-color: #00000000;
+}
+
+#barra{ /* Barra di ricerca */
+    width: 200px;
+    height: 50%;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.giochitendenza {
+    display: flex;
+    width: auto;
+}
+
+.content {
+    display: flex;
+    margin: 50px 5%;
+}
+
+.gameinfo {
+    margin-right: 5%;
+}
+
+.side {
+    width: 80%;
+}
+
+.paragrafo {
+    margin-top: 10px;
+    display: flex;
+}
+
+.imgine {
+    width: 45%;
+    padding: 1%;
+}
+
+.stores {
+    display:grid;
+}
+
+.iconastore {
+    margin-right: 10px;
+    width: 32px;
+    padding: 5px;
+    float: left;
+}
+
+.testo {
+    margin: 2%;
+    padding-top: 60px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.storerow {
+    display: flex;
+    margin-top: 20px;
+}
+
+.storelogo {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.iconautente {
+    float: left;
+    margin-right: 10px;
+    width: 40px;
+    border: 2px solid #000000;
+}
+
+.commento {
+    margin: 50px 0px;
+    text-align: justify;
+}
+
+.commento b {
+    color: #00FFFF;
+}
+
+.iconafooter {
+    margin-right: 10px;
+    width: 32px;
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    cursor:pointer;
+}
+
+.logofooter {
+    margin: auto;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* CSS menu a tendina */ 
+.menuATendina {
+    float: right;
+}
+  
+.bottoneLista {
+    height: 50px;
+    border-width: 0px;
+    font-size: 18px;
+    background-color: #00000000;
+    transition: transform 250ms linear;
+}
+  
+.lista {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.lista a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.lista a:hover {
+    background-color: #ddd;
+}
+  
+.mostra {
+    display: block;
+}
+
+.genereLista {
+    background-color: #7B46DE;
+}
+
+span :hover {
+    color: #FFFFFF;
+    transform: translateY(-5px);
+}

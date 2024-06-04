@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Terraria </title>
+        <link rel="stylesheet" href="linkedpage.css">
+    </head>
+
+    <body>
+
+        <header>
+            <a href="index.html"><img src="img/Logo.png" class="logo"></a>
+            <div id="registerAndLog">
+                <a href="register.html"><button class="login" style="margin: 0px;">Registrati</button></a>
+                <a href="login.html"><button class="login">Accedi</button></a>
+            </div>
+        </header>
+
+        <nav>
+            <div class="caselle">
+                <button class="casella"> Catalogo giochi </button>
+                <button class="casella"> Per mobile </button>
+                
+                <!-- Menu a tendina -->
+                <div class="menuATendina">
+                    <span><button class="bottoneLista" onclick="apriMenu()">Generi</button></span>
+                    <div class="lista" id="generi">
+                        <a class="genereLista" href="#">Avventura</a>
+                        <a class="genereLista" href="#">Azione</a>
+                        <a class="genereLista" href="#">A turni</a>
+                        <a class="genereLista" href="#">Muliplayer</a>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="caselle">
+                <a href="hk.html"><button class="casella">Hollow Knight</button></a>
+                <a href="terraria.html"><button class="casella">Terraria</button></a>
+                    <button class="casella">Cuphead</button>
+            </div>
+
+            <input type="text" id="barra" placeholder="Cerca...">
+        </nav>
+
+        <section class="content">
+            <section class="gameinfo">
+                <div class="paragrafo">
+                    <p class="testo">
+                        Terraria è un gioco di tipo sandbox in cui puoi esplorare, combattere e creare in un mondo generato casualmente. Puoi scavare nelle profondità delle caverne in cerca di tesori e materiali con cui fabbricare oggetti sempre più evoluti, macchinari e decorazioni. Puoi anche sfidare nemici sempre più forti per mettere alla prova le tue abilità in combattimento.
+                    </p>
+                    <img src="img/Terrariagameplay1.jpg" class="imgine">
+                </div>
+
+                <div class="paragrafo">
+                    <img src="img/Terrariagameplay2.jpg" class="imgine">
+                    <p class="testo">
+                        Terraria mescola elementi dei giochi'azione classici con la libertà della creatività in stile sandbox, offrendo un'esperienza di gioco unica in cui sia il viaggio che la destinazione sono completamente sotto il controllo del giocatore. L'avventura di Terraria è davvero unica come i giocatori stessi! Sei pronto per l'imponente compito di esplorare, creare e difendere un mondo tutto tuo?
+                    </p>
+                </div>
+            </section>
+
+            <aside class="side">
+                <section class="stores">
+                    <p>Disponibile su:</p>
+                    <div class="storerow">
+                        <a href="https://store.steampowered.com/app/105600/Terraria/" target="_blank"><img src="img/Steam_logo.png" class="storelogo"></a>
+                        <a href="https://store.playstation.com/it-it/product/EP4040-CUSA00737_00-TERRARIA00000001" target="_blank"><img src="img/PS_logo.png" class="storelogo"></a>
+                    </div>
+
+                    <div class="storerow">
+                        <a href="https://www.xbox.com/it-IT/games/store/terraria/BTNPS60N3114" target="_blank"><img src="img/xbox_logo.png" class="storelogo"></a>
+                        <a href="https://www.nintendo.it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Terraria-1424601.html" target="_blank"><img src="img/NSwitch_logo.png" class="storelogo"></a>
+                    </div>
+                    
+
+                </section>
+
+                <b>Migliori commenti: </b>
+
+                <section>
+                    <div class="commento">
+                        <img src="img/Leston.jpg" class="iconautente">
+                        <b>Professor Leston</b>
+                        Terraria è un gioco straordinario che offre un'enorme varietà di opzioni e possibilità. 
+                        La libertà di creare, esplorare e combattere in un vasto mondo pixelato è sorprendente. 
+                        La presenza di numerosi biomi, mostri e oggetti da scoprire aggiunge profondità e rigiocabilità. 
+                        L'attenzione continua degli sviluppatori alle nuove aggiunte e aggiornamenti rende Terraria un'esperienza 
+                        di gioco in costante evoluzione.
+                    </div>
+
+                    <div class="commento">
+                        <img src="img/Gohan.jpg" class="iconautente">
+                        <b>DBL31-01S</b>
+                        Sebbene Terraria offra un'esperienza ricca e diversificata, 
+                        il suo stile di gioco potrebbe non appassionare tutti. 
+                        La grafica pixelata potrebbe non essere di gusto per alcuni giocatori più orientati 
+                        verso grafiche più moderne. Inoltre, il gioco richiede un certo impegno per essere 
+                        apprezzato appieno, e alcuni potrebbero sentirsi sopraffatti dalla curva di 
+                        apprendimento iniziale e dalla mancanza di istruzioni chiare.
+                    </div>
+
+                    <div class="commento">
+                        <img src="img/Cell.jpg" class="iconautente">
+                        <b>Cell Perfetto</b>
+                        Terraria è un gioco che offre un mix intrigante di creatività, 
+                        esplorazione e azione. La varietà di contenuti è impressionante, 
+                        ma può risultare travolgente per chi è nuovo al gioco. La curva 
+                        di apprendimento è ripagata con una grande soddisfazione una volta che 
+                        ci si adatta al ritmo del gioco. Mentre alcuni potrebbero preferire stili di gioco 
+                        più guidati, chi abbraccia la libertà creativa troverà in Terraria un mondo da esplorare senza limiti.
+                    </div>
+                </section>
+            </aside>
+        </section>
+
+        <footer>
+            <a href="index.html"><img src="img/Logo.png" class="logofooter"></a>
+
+            <div class="caselle">
+                <button class="casella">Chi siamo</button>
+                <button class="casella">Servizio di supporto</button>
+                <button class="casella">Domande frequenti</button>
+                <button class="casella">Contattaci</button>
+            </div>
+
+            <div>
+                <ul class="casellefooter">
+                    <a href="https://www.facebook.com" target="_blank"><img src="icone/facebook.png" class="iconafooter"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="icone/instagram.png" class="iconafooter"></a>
+                    <a href="https://twitter.com/home" target="_blank"><img src="icone/twitter.png" class="iconafooter"></a>
+                    <a href="https://www.tiktok.com/login" target="_blank"><img src="icone/tik-tok.png" class="iconafooter"></a>
+                </ul>
+            </div>
+        </footer>
+
+    </body>
+    <script src="script.js"></script>
+</html>

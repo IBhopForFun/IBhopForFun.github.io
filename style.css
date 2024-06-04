@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #cacaca;
+    background-image: url(img/background.jpg);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5621B9;
+    padding: 10px 0px 10px 50px; /* Top Right Bottom Left */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color:#7B46DE; 
+    position: sticky;
+    top: 0;
+}
+
+section {
+    border-color: #00000000;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+    position: relative;
+}
+
+button {
+    border-width: 0px;
+}
+
+footer{
+    background-color: #5621B9;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    padding: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+li:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+
+.imgtendenza {
+    width: 80%;
+    border: 3px solid#cacaca;
+    display: block;
+}
+
+.testoHover {
+    width: 347px;
+    height: 520px;
+    background-color: #000000aa;
+    top: 0;
+    margin-top: 13px;
+    left: 0;
+    margin-left: 13px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* display: flex funziona in verticale*/
+    transition: 0.6s;
+    opacity: 0;
+    color: #FFFFFF;
+}
+
+.sinistra {
+    float: left;
+    width: 20%;
+    margin: 70px 50px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.login{ /*Pulsante login*/
+    background-color: #7B46DE; 
+    border: none; 
+    color: #FFFFFF; 
+    padding: 15px 32px; 
+    text-align: center;  
+    display: inline-block; 
+    font-size: 16px;
+    margin: 0px 50px 0px 0px; /* Top Right Bottom Left */
+    cursor:pointer;
+}
+
+.caselle{ /* div per le caselle */
+    margin-left: 50px;
+}
+
+.casella{ /* Caselle nel nav */
+    font-size: 18px;
+    margin-right:20px;    
+    height: 100%;
+    background-color: #00000000;
+}
+
+#barra{ /* Barra di ricerca */
+    width: 200px;
+    height: 50%;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.giochitendenza {
+    display: flex;
+    width: auto;
+}
+
+.icona {
+    margin-right: 10px;
+    width: 32px;
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+}
+
+.iconafooter {
+    margin-right: 10px;
+    width: 32px;
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.logofooter {
+    margin: auto;
+    margin-left: 30px ;
+}
+
+
+
+/* CSS menu a tendina */ 
+.menuATendina {
+    float: right;
+}
+  
+.bottoneLista {
+    height: 50px;
+    border-width: 0px;
+    font-size: 18px;
+    background-color: #00000000;
+    transition: transform 250ms linear;
+}
+  
+.lista {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.lista a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.lista a:hover {
+    background-color: #ddd;
+}
+  
+.mostra {
+    display: block;
+}
+
+.genereLista {
+    background-color: #7B46DE;
+}
+
+.genereLista :hover {
+    color: #FFFFFF;
+}
+
+span :hover {
+    color: #FFFFFF;
+    transform: translateY(-5px);
+}

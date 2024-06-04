@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <a href="index.html"><img src="img/Logo.png" class="logo"></a>
+            
+        <form class="login">
+            <h2>Login</h2>
+
+            <div>
+                <b>email</b>
+                <input type="text" id ="email" placeholder="Inserisci email" required autocomplete="off">
+
+                <b>Password</b>
+                <input type="password" id ="password" placeholder="Inserisci password" required>
+
+                <p>Non hai un account? <a href="register.html">Registrati da qui</a></p>
+                
+                <button type="button" onclick="login()">Accedi</button>
+            </div>
+        </form>
+    </body>
+    <script src="script.js"></script>
+</html>
